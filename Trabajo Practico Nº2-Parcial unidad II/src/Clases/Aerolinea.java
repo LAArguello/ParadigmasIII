@@ -20,4 +20,15 @@ public class Aerolinea {
         this.cantidadAviones = cantidadAviones;
         this.destinos = destinos;
     }
+
+    @Override
+    public String toString() {
+        return "Aerolinea{" +
+                "nombre='" + nombre + '\'' +
+                ", id=" + id +
+                ", cantidadPilotos=" + cantidadPilotos +
+                ", cantidadAviones=" + cantidadAviones +
+                ", destinos='" + destinos + '\'' +
+                '}';
+    }
 }

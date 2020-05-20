@@ -39,7 +39,14 @@ public class Piloto {
 
     public void vuelo(){}
 
-
+    @Override
+    public String toString() {
+        return "Piloto{" +
+                "nombreYApellido='" + nombreYApellido + '\'' +
+                ", experiencia='" + experiencia + '\'' +
+                ", aerolinea='" + aerolinea + '\'' +
+                '}';
     }
+}
 
 

@@ -38,5 +38,14 @@ public class Aeropuerto {
         this.cantidadAviones = cantidadAviones;
         this.aerolineasdisponibles = aerolineasdisponibles;
     }
+
+    @Override
+    public String toString() {
+        return "Aeropuerto{" +
+                "id=" + id +
+                ", cantidadAviones=" + cantidadAviones +
+                ", aerolineasdisponibles='" + aerolineasdisponibles + '\'' +
+                '}';
+    }
 }
 

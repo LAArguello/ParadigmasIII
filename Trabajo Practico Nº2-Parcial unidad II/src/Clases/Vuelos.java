@@ -6,7 +6,7 @@ public class Vuelos {
     private Integer horaLlegada;
     private String aeropuerto;
     private String piloto;
-    private Integer numeroAvion;
+    private String idAvion;
 
     public Integer getId() {
         return id;
@@ -48,20 +48,34 @@ public class Vuelos {
         this.piloto = piloto;
     }
 
-    public Integer getNumeroAvion() {
-        return numeroAvion;
+    public String getIdAvion() {
+        return idAvion;
     }
 
-    public void setNumeroAvion(Integer numeroAvion) {
-        this.numeroAvion = numeroAvion;
+    public void setIdAvion(String idAvion) {
+        this.idAvion = idAvion;
     }
 
-    public Vuelos(Integer id, Integer horaSalida, Integer horaLlegada, String aeropuerto, String piloto, Integer numeroAvion) {
+    public Vuelos(Integer id, Integer horaSalida, Integer horaLlegada, String aeropuerto, String piloto, String idAvion) {
         this.id = id;
         this.horaSalida = horaSalida;
         this.horaLlegada = horaLlegada;
         this.aeropuerto = aeropuerto;
         this.piloto = piloto;
-        this.numeroAvion = numeroAvion;
+        this.idAvion = idAvion;
+    }
+
+    public Vuelos() {}
+
+    @Override
+    public String toString() {
+        return "Vuelos{" +
+                "id=" + id +
+                ", horaSalida=" + horaSalida +
+                ", horaLlegada=" + horaLlegada +
+                ", aeropuerto='" + aeropuerto + '\'' +
+                ", piloto='" + piloto + '\'' +
+                ", idAvion='" + idAvion + '\'' +
+                '}';
     }
 }

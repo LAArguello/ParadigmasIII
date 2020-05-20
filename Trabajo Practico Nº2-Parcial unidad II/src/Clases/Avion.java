@@ -50,11 +50,23 @@ public class Avion {
         this.cantidadDePilotos = cantidadDePilotos;
     }
 
+    @Override
+    public String toString() {
+        return "Avion{" +
+                "numeroAvion=" + numeroAvion +
+                ", tipo='" + tipo + '\'' +
+                ", estado='" + estado + '\'' +
+                ", Lugar='" + Lugar + '\'' +
+                ", cantidadDePilotos=" + cantidadDePilotos +
+                '}';
+    }
+
     public Avion(Integer numeroAvion, String tipo, String estado, String lugar, Integer cantidadDePilotos) {
         this.numeroAvion = numeroAvion;
         this.tipo = tipo;
         this.estado = estado;
         Lugar = lugar;
         this.cantidadDePilotos = cantidadDePilotos;
+
     }
 }
