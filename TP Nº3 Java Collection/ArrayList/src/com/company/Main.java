@@ -41,6 +41,5 @@ public class Main {
         //ordenando objetos de la lista por nombre y apellido.
         Collections.sort(clientes,Comparator.comparing(Cliente::getNYA));
         System.out.println("Ordenados por NYA :"+ clientes);
-
     }
 }
