@@ -1,3 +1,3 @@
 Cabe destacar que se utilizo la mismas clases para cada uno de los ejemplos de las diferentes 
-colecciones! es decir "Cliente" de un banco. Dentro de cada una de las colecciones en los "main" esta escrito la descripcion y caracteristicas de cada una de las mismas.
+colecciones! es decir "Cliente" de un banco. 
 Alumno: Arguello Leonel Alejandro 40775202
