@@ -1,0 +1,3 @@
+Cabe destacar que se utilizo la mismas clases para cada uno de los ejemplos de las diferentes 
+colecciones! es decir "Cliente" de un banco.
+Alumno: Arguello Leonel Alejandro 40775202
