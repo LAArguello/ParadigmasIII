@@ -6,8 +6,8 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        //HashMap es una tabla de hash basada en una implementacion de la interfaz mapa de java.
-        //un mapa es una coleccion de pares de keys. Algunas caracteristicas son:
+        //HashMap es una implementación de la interfaz mapa de java basada en  tabla de hash .
+        //un mapa es una coleccion de pares que esta compuesta por keys y sus valores. Algunas caracteristicas son:
         //un hashmap no puede contener keys duplicadas. pero si permite valores y keys nulas.
         //un hashmap es una coleccion que no se encuentra ordenada.
 
