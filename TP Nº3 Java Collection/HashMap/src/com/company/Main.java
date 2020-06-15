@@ -41,11 +41,13 @@ public class Main {
             System.out.println(NYA + " => " + NumCuenta);
         });
         //ordenando objetos del hashlist por nombre y apellido, en este caso el nombre es el "Key".
+        //cabe aclarar que el hashlist no puede ordenarse por su naturaleza, pero si puede transformarse
+        //en una lista para mostrar de manera ordenada una parte de sus elementos ya sea su key o su valor.
 
         List<String> clientesordenados = new ArrayList<>(clientes.keySet());
         Collections.sort(clientesordenados);
         System.out.println("Ordenados por NYA :"+ clientesordenados);
-        //al mostrarlo de esta forma ya pierde la forma de mapa! :c pero funciona
+        //al mostrarlo de esta forma ya pierde la forma de mapa!
     }
 }
 
